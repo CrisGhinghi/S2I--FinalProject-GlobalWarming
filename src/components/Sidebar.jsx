@@ -12,9 +12,9 @@ export const Sidebar = ({ onSelect }) => {
         { path: "/", label: "Home", fontClass: "font-medium" },
         { path: "/temperature", label: "Temperature", fontClass: "font-light" },
         { path: "/co2", label: "CO2", fontClass: "font-light" },
-        { path: "/metano", label: "Metano", fontClass: "font-light" },
+        { path: "/metano", label: "Methane", fontClass: "font-light" },
         { path: "/no2", label: "NO2", fontClass: "font-light" },
-        { path: "/ghiaccio-polare", label: "Ghiaccio Polare", fontClass: "font-light" }
+        { path: "/ghiaccio-polare", label: "Artic", fontClass: "font-light" }
     ];
 
     return (
