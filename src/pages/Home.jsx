@@ -7,15 +7,11 @@ export const Home = () => {
       <div className=" md:max-w-md mb-10 md:mb-0 md:ml-[5%] text-center md:text-left text-sm md:text-base">
         <h1 className="my-6 md:mt-0 text-4xl md:text-7xl font-bold text-blue-900 dark:text-cyan-400">Climatic</h1>
         <p className="mx-6 md:mx-0">
-          Il riscaldamento globale è un fenomeno che riguarda l{"'"}aumento delle temperature medie
-          terrestri. <br />
+          Global warming is a phenomenon concerning the increase in average Earth temperatures. <br />
           <br />
-          Questo fenomeno ha gravi ripercussioni sul nostro pianeta,
-          causando scioglimento dei ghiacciai, innalzamento del livello del mare e
-          cambiamenti climatici estremi. <br />
+          This phenomenon has serious repercussions on our planet, causing the melting of glaciers, rising sea levels, and extreme climate changes. <br />
           <br />
-          È essenziale monitorare e comprendere questi dati
-          per prendere misure preventive.
+          It is essential to monitor and understand these data to take preventive measures.
         </p>
       </div>
 
