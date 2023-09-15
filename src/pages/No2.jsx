@@ -29,24 +29,24 @@ const updateNo2Data = (prevData, data) => ({
 
 const Impacts = () => (
   <div>
-    <h2 className='text-lg md:text-xl font-semibold mb-1 text-blue-900 dark:text-cyan-400'>Impatti</h2>
+    <h2 className='text-lg md:text-xl font-semibold mb-1 text-blue-900 dark:text-cyan-400'>Impacts</h2>
     <ul className='list-none'>
-      <li className='mb-1'><FontAwesomeIcon icon={faExclamationTriangle} className='mr-2 text-sm' />Contributo all{"'"}effetto serra</li>
-      <li className='mb-1'><FontAwesomeIcon icon={faCar} className='mr-2 text-sm' />Formazione di smog e piogge acide</li>
-      <li className='mb-1'><FontAwesomeIcon icon={faLungs} className='mr-2 text-sm' />Effetti negativi sulla salute respiratoria</li>
-      <li className='mb-1'><FontAwesomeIcon icon={faIndustry} className='mr-2 text-sm' />Danneggiamento della vegetazione e degli ecosistemi acquatici</li>
+      <li className='mb-1'><FontAwesomeIcon icon={faExclamationTriangle} className='mr-2 text-sm' />Contribution to the greenhouse effect</li>
+      <li className='mb-1'><FontAwesomeIcon icon={faCar} className='mr-2 text-sm' />Formation of smog and acid rain</li>
+      <li className='mb-1'><FontAwesomeIcon icon={faLungs} className='mr-2 text-sm' />Negative effects on respiratory health</li>
+      <li className='mb-1'><FontAwesomeIcon icon={faIndustry} className='mr-2 text-sm' />Damage to vegetation and aquatic ecosystems</li>
     </ul>
   </div>
 );
 
 const Solutions = () => (
   <div>
-    <h2 className='text-lg md:text-xl font-semibold mb-1 text-blue-900 dark:text-cyan-400'>Soluzioni</h2>
+    <h2 className='text-lg md:text-xl font-semibold mb-1 text-blue-900 dark:text-cyan-400'>Solutions</h2>
     <ul className='list-none'>
-      <li className='mb-1'><FontAwesomeIcon icon={faWind} className='mr-2 text-sm' />Limitare le emissioni di NO2 attraverso politiche ambientali</li>
-      <li className='mb-1'><FontAwesomeIcon icon={faSnowflake} className='mr-2 text-sm' />Promuovere l{"'"}uso di veicoli a basse emissioni o elettrici</li>
-      <li className='mb-1'><FontAwesomeIcon icon={faFlask} className='mr-2 text-sm' />Adottare tecnologie di filtraggio nelle industrie e nelle centrali elettriche</li>
-      <li className='mb-1'><FontAwesomeIcon icon={faHandsHelping} className='mr-2 text-sm' />Informare e sensibilizzare la popolazione sui rischi associati all{"'"}esposizione al NO2</li>
+      <li className='mb-1'><FontAwesomeIcon icon={faWind} className='mr-2 text-sm' />Limit NO2 emissions through environmental policies</li>
+      <li className='mb-1'><FontAwesomeIcon icon={faSnowflake} className='mr-2 text-sm' />Promote the use of low-emission or electric vehicles</li>
+      <li className='mb-1'><FontAwesomeIcon icon={faFlask} className='mr-2 text-sm' />Adopt filtration technologies in industries and power plants</li>
+      <li className='mb-1'><FontAwesomeIcon icon={faHandsHelping} className='mr-2 text-sm' />Inform and raise awareness among the population about the risks associated with NO2 exposure</li>
     </ul>
   </div>
 );
@@ -89,7 +89,7 @@ export const No2 = () => {
       <h1 className="text-4xl md:text-5xl font-bold mb-5 text-blue-900 dark:text-cyan-400">NO2</h1>
       <ul className="prose max-w-screen-lg">
         <p>
-          Il diossido di azoto (NO2) è un gas serra e un inquinante atmosferico che può avere gravi effetti sulla salute umana e sull{"'"}ambiente. È prodotto principalmente dalla combustione di combustibili fossili nei veicoli e nelle centrali elettriche, nonché da processi industriali. La sua presenza nell{"'"}atmosfera può contribuire all{"'"}effetto serra e alla formazione di smog.
+        Nitrogen dioxide is a greenhouse gas and an atmospheric pollutant that can have severe effects on human health and the environment. It is primarily produced from the combustion of fossil fuels in vehicles and power plants, as well as from industrial processes. Its presence in the atmosphere can contribute to the greenhouse effect and the formation of smog.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mt-5">
           <Impacts />
