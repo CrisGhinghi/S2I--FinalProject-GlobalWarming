@@ -86,7 +86,7 @@ export const Metano = () => {
 
   return (
     <div className="md:h-[calc(100vh-56px-2rem)] flex flex-col items-center bg-sky-100 dark:bg-sky-900 rounded p-6 ml-2 mr-2 md:mr-4 shadow-md dark:shadow-slate-900 text-sm md:text-base">
-      <h1 className="text-4xl md:text-5xl font-bold mb-5 text-blue-900 dark:text-cyan-400">Metano</h1>
+      <h1 className="text-4xl md:text-5xl font-bold mb-5 text-blue-900 dark:text-cyan-400">Methane</h1>
       <ul className="prose max-w-screen-lg">
         <p>
           Il metano è uno dei principali gas serra presenti nell{"'"}atmosfera. Anche se è presente in quantità minori rispetto alla CO2, ha un potere di riscaldamento molto maggiore. Le principali fonti di emissione di metano sono l{"'"}agricoltura, la produzione e il trasporto di carbone, petrolio e gas, e la decomposizione dei rifiuti organici nei siti di smaltimento.
