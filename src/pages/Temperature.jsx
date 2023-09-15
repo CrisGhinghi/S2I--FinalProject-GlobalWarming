@@ -29,24 +29,24 @@ const updateTemperatureData = (prevData, data) => ({
 
 const Impacts = () => (
   <div>
-    <h2 className='text-lg md:text-xl font-semibold mb-1 text-blue-900 dark:text-cyan-400'>Impatti</h2>
+    <h2 className='text-lg md:text-xl font-semibold mb-1 text-blue-900 dark:text-cyan-400'>Impacts</h2>
     <ul className='list-none'>
-      <li className='mb-1'><FontAwesomeIcon icon={faExclamationTriangle} className='mr-2 text-sm' />Estinzione di specie animali e vegetali</li>
-      <li className='mb-1'><FontAwesomeIcon icon={faWater} className='mr-2 text-sm' />Riduzione delle risorse idriche</li>
-      <li className='mb-1'><FontAwesomeIcon icon={faFish} className='mr-2 text-sm' />Danneggiamento degli ecosistemi marini</li>
-      <li className='mb-1'><FontAwesomeIcon icon={faBug} className='mr-2 text-sm' />Aumento delle malattie trasmesse da vettori come la malaria</li>
+      <li className='mb-1'><FontAwesomeIcon icon={faExclamationTriangle} className='mr-2 text-sm' />Extinction of animal and plant species</li>
+      <li className='mb-1'><FontAwesomeIcon icon={faWater} className='mr-2 text-sm' />Reduction of water resources</li>
+      <li className='mb-1'><FontAwesomeIcon icon={faFish} className='mr-2 text-sm' />Damage to marine ecosystems</li>
+      <li className='mb-1'><FontAwesomeIcon icon={faBug} className='mr-2 text-sm' />Increase in vector-borne diseases like malaria</li>
     </ul>
   </div>
 );
 
 const Solutions = () => (
   <div>
-    <h2 className='text-lg md:text-xl font-semibold mb-1 text-blue-900 dark:text-cyan-400'>Soluzioni</h2>
+    <h2 className='text-lg md:text-xl font-semibold mb-1 text-blue-900 dark:text-cyan-400'>Solutions</h2>
     <ul className='list-none'>
-      <li className='mb-1'><FontAwesomeIcon icon={faWind} className='mr-2 text-sm' />Riduzione delle emissioni di gas serra</li>
-      <li className='mb-1'><FontAwesomeIcon icon={faSun} className='mr-2 text-sm' />Uso di energie rinnovabili come il solare e l{"'"}eolico</li>
-      <li className='mb-1'><FontAwesomeIcon icon={faTree} className='mr-2 text-sm' />Rimboschimento e conservazione delle foreste</li>
-      <li className='mb-1'><FontAwesomeIcon icon={faHandsHelping} className='mr-2 text-sm' />Adozione di pratiche agricole sostenibili</li>
+      <li className='mb-1'><FontAwesomeIcon icon={faWind} className='mr-2 text-sm' />Reduction of greenhouse gas emissions</li>
+      <li className='mb-1'><FontAwesomeIcon icon={faSun} className='mr-2 text-sm' />Use of renewable energies such as solar and wind</li>
+      <li className='mb-1'><FontAwesomeIcon icon={faTree} className='mr-2 text-sm' />Reforestation and conservation of forests</li>
+      <li className='mb-1'><FontAwesomeIcon icon={faHandsHelping} className='mr-2 text-sm' />Adoption of sustainable agricultural practices</li>
     </ul>
   </div>
 );
@@ -80,10 +80,10 @@ export const Temperature = () => {
 
   return (
     <div className="md:h-[calc(100vh-56px-2rem)] flex flex-col items-center bg-sky-100 dark:bg-sky-900 rounded p-6 ml-2 mr-2 md:mr-4 shadow-md dark:shadow-slate-900 text-sm md:text-base">
-      <h1 className="text-4xl md:text-5xl font-bold mb-5 text-blue-900 dark:text-cyan-400">Temperatura</h1>
+      <h1 className="text-4xl md:text-5xl font-bold mb-5 text-blue-900 dark:text-cyan-400">Temperature</h1>
       <div className="prose prose-lg max-w-screen-lg">
         <p>
-          Il riscaldamento globale è una delle principali sfide del nostro tempo. Esso si riferisce all{"'"}aumento delle temperature medie della superficie terrestre, degli oceani e dell{"'"}atmosfera, causato principalmente dalle attività umane, come la combustione di combustibili fossili, la deforestazione e l{"'"}agricoltura.
+          Global warming is one of the main challenges of our time. It refers to the increase in average temperatures of the Earth{"'"}s surface, oceans, and atmosphere, mainly caused by human activities, such as the burning of fossil fuels, deforestation, and agriculture.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mt-5">
           <Impacts />
