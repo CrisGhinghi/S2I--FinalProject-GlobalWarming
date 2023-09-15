@@ -17,7 +17,7 @@ export const Home = () => {
 
       <div className="text-center md:absolute md:right-0 md:top-1/2 md:transform md:-translate-y-1/2 md:-translate-x-[-50%] h-full">
         {/* Immagine per dispositivi mobili */}
-        <img src={worldMobile} alt="World" className="h-full w-full object-contain md:hidden mt-[-45px]" />
+        <img src={worldMobile} alt="World" className="h-full w-full object-contain md:hidden mt-[-35px]" />
 
         {/* Immagine per schermi grandi */}
         <img src={world} alt="World" className="hidden md:block h-full w-full object-contain md:object-cover md:ml-0" />
