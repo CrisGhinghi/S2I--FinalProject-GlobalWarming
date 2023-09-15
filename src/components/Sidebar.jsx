@@ -18,8 +18,8 @@ export const Sidebar = ({ onSelect }) => {
     ];
 
     return (
-        <div className="w-72 flex p-2.5 overflow-hidden">
-            <div className="w-full h-auto bg-blue-900 dark:bg-sky-950 p-6 rounded shadow-md shadow-blue-950 dark:shadow-slate-950">
+        <div className="w-72 flex overflow-hidden">
+            <div className="w-full h-auto bg-blue-900 dark:bg-sky-950 m-2.5 p-6 rounded shadow-md shadow-blue-950 dark:shadow-slate-950">
                 <h2 className="text-3xl font-bold mb-8 text-white">Climatic</h2>
                 <ul className="space-y-4">
                     {links.map(link => (
