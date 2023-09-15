@@ -29,24 +29,24 @@ const updateCo2Data = (prevData, data) => ({
 
 const Impacts = () => (
   <div>
-    <h2 className='text-lg md:text-xl font-semibold mb-1 text-blue-900 dark:text-cyan-400'>Impatti</h2>
+    <h2 className='text-lg md:text-xl font-semibold mb-1 text-blue-900 dark:text-cyan-400'>Impacts</h2>
     <ul className='list-none'>
-      <li className='mb-1'><FontAwesomeIcon icon={faExclamationTriangle} className='mr-2 text-sm' />Acidificazione degli oceani</li>
-      <li className='mb-1'><FontAwesomeIcon icon={faWater} className='mr-2 text-sm' />Scioglimento dei ghiacciai e innalzamento del livello del mare</li>
-      <li className='mb-1'><FontAwesomeIcon icon={faWind} className='mr-2 text-sm' />Eventi climatici estremi come uragani e siccità</li>
-      <li className='mb-1'><FontAwesomeIcon icon={faLeaf} className='mr-2 text-sm' />Perdita di biodiversità</li>
+      <li className='mb-1'><FontAwesomeIcon icon={faExclamationTriangle} className='mr-2 text-sm' />Ocean acidification</li>
+      <li className='mb-1'><FontAwesomeIcon icon={faWater} className='mr-2 text-sm' />Melting of glaciers and rising sea levels</li>
+      <li className='mb-1'><FontAwesomeIcon icon={faWind} className='mr-2 text-sm' />Extreme weather events such as hurricanes and droughts</li>
+      <li className='mb-1'><FontAwesomeIcon icon={faLeaf} className='mr-2 text-sm' />Loss of biodiversity</li>
     </ul>
   </div>
 );
 
 const Solutions = () => (
   <div>
-    <h2 className='text-lg md:text-xl font-semibold mb-1 text-blue-900 dark:text-cyan-400'>Soluzioni</h2>
+    <h2 className='text-lg md:text-xl font-semibold mb-1 text-blue-900 dark:text-cyan-400'>Solutions</h2>
     <ul className='list-none'>
-      <li className='mb-1'><FontAwesomeIcon icon={faWind} className='mr-2 text-sm' />Limitare le emissioni di CO2 attraverso politiche ambientali</li>
-      <li className='mb-1'><FontAwesomeIcon icon={faSun} className='mr-2 text-sm' />Promuovere l{"'"}uso di energie rinnovabili</li>
-      <li className='mb-1'><FontAwesomeIcon icon={faFlask} className='mr-2 text-sm' />Supportare la ricerca e lo sviluppo di tecnologie di cattura e stoccaggio del carbonio</li>
-      <li className='mb-1'><FontAwesomeIcon icon={faHandsHelping} className='mr-2 text-sm' />Adottare stili di vita e modelli di consumo sostenibili</li>
+      <li className='mb-1'><FontAwesomeIcon icon={faWind} className='mr-2 text-sm' />Limit CO2 emissions through environmental policies</li>
+      <li className='mb-1'><FontAwesomeIcon icon={faSun} className='mr-2 text-sm' />Promote the use of renewable energies</li>
+      <li className='mb-1'><FontAwesomeIcon icon={faFlask} className='mr-2 text-sm' />Support research and development of carbon capture and storage technologies</li>
+      <li className='mb-1'><FontAwesomeIcon icon={faHandsHelping} className='mr-2 text-sm' />Adopt sustainable lifestyles and consumption patterns</li>
     </ul>
   </div>
 );
@@ -88,7 +88,7 @@ export const Co2 = () => {
       <h1 className="text-4xl md:text-5xl font-bold mb-5 text-blue-900 dark:text-cyan-400">CO2</h1>
       <ul className="prose prose-lg max-w-screen-lg">
         <p>
-          L{"'"}eccesso di CO2 nell{"'"}atmosfera è una delle principali cause del cambiamento climatico. Questo gas serra, prodotto principalmente dalle attività umane come la combustione di combustibili fossili, la deforestazione e l{"'"}agricoltura, trattiene il calore nell{"'"}atmosfera, portando ad un aumento delle temperature globali.
+          The excess of CO2 in the atmosphere is one of the main causes of climate change. This greenhouse gas, primarily produced by human activities such as the burning of fossil fuels, deforestation, and agriculture, traps heat in the atmosphere, leading to a rise in global temperatures.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mt-5">
           <Impacts />
