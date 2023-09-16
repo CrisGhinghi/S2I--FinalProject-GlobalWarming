@@ -5,7 +5,7 @@ I'm a student at Start2Impact University and I'm exited to present my final proj
 <h3 align="center">https://climatic-globalwarming.netlify.app</h3>
 
 # Home
-The site opens to the main screen which features the presentation content and a sidebar from which you can select the topics of interest.
+The main page of the site features an introductory section and a sidebar that allows users to select topics of interest.
 
 <p align="center">
   <img src="src/assets/img/screenshots/homelight.png" alt="Size Limit CLI" width="350">
@@ -13,7 +13,7 @@ The site opens to the main screen which features the presentation content and a 
 </p>
 
 # Example page
-For each entry in the sidebar, there's its respective content composed of a brief presentation of the topic, two lists related to impacts and solutions, and concluded with a chart.
+Each entry in the sidebar corresponds to a specific content, which includes a brief description of the topic, two lists pertaining to impacts and solutions, and finally a chart for data visualization.
 <p align="center">
   <img src="src/assets/img/screenshots/articlight.png" alt="Size Limit CLI" width="350">
   <img src="src/assets/img/screenshots/articdark.png" alt="Size Limit CLI" width="350">
