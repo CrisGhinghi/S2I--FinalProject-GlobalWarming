@@ -29,7 +29,7 @@ const updateCo2Data = (prevData, data) => ({
 
 const Impacts = () => (
   <div>
-    <h2 className='text-lg md:text-xl font-semibold mb-1 text-blue-900 dark:text-cyan-400'>Impacts</h2>
+    <h2 className='text-lg font-semibold mb-1 text-blue-900 dark:text-cyan-400'>Impacts</h2>
     <ul className='list-none'>
       <li className='mb-1'><FontAwesomeIcon icon={faExclamationTriangle} className='mr-2 text-sm' />Ocean acidification</li>
       <li className='mb-1'><FontAwesomeIcon icon={faWater} className='mr-2 text-sm' />Melting of glaciers and rising sea levels</li>
@@ -41,7 +41,7 @@ const Impacts = () => (
 
 const Solutions = () => (
   <div>
-    <h2 className='text-lg md:text-xl font-semibold mb-1 text-blue-900 dark:text-cyan-400'>Solutions</h2>
+    <h2 className='text-lg font-semibold mb-1 text-blue-900 dark:text-cyan-400'>Solutions</h2>
     <ul className='list-none'>
       <li className='mb-1'><FontAwesomeIcon icon={faWind} className='mr-2 text-sm' />Limit CO2 emissions through environmental policies</li>
       <li className='mb-1'><FontAwesomeIcon icon={faSun} className='mr-2 text-sm' />Promote the use of renewable energies</li>
@@ -85,17 +85,22 @@ export const Co2 = () => {
 
   return (
     <div className="md:h-[calc(100vh-56px-2rem)] flex flex-col items-center bg-sky-100 dark:bg-sky-900 rounded p-6 ml-2 mr-2 md:mr-4 shadow-md dark:shadow-slate-900 text-sm md:text-base">
-      <h1 className="text-4xl md:text-5xl font-bold mb-5 text-blue-900 dark:text-cyan-400">CO2</h1>
-      <ul className="prose prose-lg max-w-screen-lg">
-        <p>
-          The excess of CO2 in the atmosphere is one of the main causes of climate change. This greenhouse gas, primarily produced by human activities such as the burning of fossil fuels, deforestation, and agriculture, traps heat in the atmosphere, leading to a rise in global temperatures.
-        </p>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mt-5">
+      <h1 className="text-4xl font-bold mb-4 text-blue-900 dark:text-cyan-400">CO2</h1>
+
+      <div className="prose prose-lg max-w-screen-lg">
+        <p>It is one of the main gases responsible for the greenhouse effect in the Earth{"'"}s atmosphere.</p>
+
+        <p className='my-2'>These gases allow sunlight to penetrate the atmosphere and trap some of the heat that the Earth reflects back. This phenomenon is natural and necessary to keep the Earth warm enough to support life.</p>
+
+        <p>However, human activities, especially the burning of fossil fuels, deforestation, and various industrial processes, have led to a significant increase in the concentrations of CO2 and other greenhouse gases in the atmosphere, amplifying the natural greenhouse effect.</p>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
           <Impacts />
           <Solutions />
         </div>
-      </ul>
-      <div className="bg-white dark:bg-gray-100 rounded-md shadow-lg w-full max-w-4xl mt-10 p-5">
+      </div>
+
+      <div className="bg-white dark:bg-gray-100 rounded-md shadow-lg w-full max-w-4xl mt-4 p-3">
         <LineChart chartData={co2Data} />
       </div>
     </div>
