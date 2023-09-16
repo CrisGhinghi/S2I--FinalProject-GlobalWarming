@@ -1,7 +1,11 @@
 <h1 align="center">🚀 S2I • Final Project • Front End Development</h1>
 <h3 align="left">Hello 👋, I'm Cris!<br>
 I'm a student at Start2Impact University and I'm exited to present my final project for the Front End Development course.</h3>
+<p align="left">For this project, I created multi-page dashboards to display data on global warming.</h3>
 <h3 align="center">https://climatic-globalwarming.netlify.app</h3>
+
+# Home
+
 
 ### Languages
 • HTML<br>
