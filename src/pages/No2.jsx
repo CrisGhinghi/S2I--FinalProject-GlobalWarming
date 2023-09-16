@@ -29,7 +29,7 @@ const updateNo2Data = (prevData, data) => ({
 
 const Impacts = () => (
   <div>
-    <h2 className='text-lg md:text-xl font-semibold mb-1 text-blue-900 dark:text-cyan-400'>Impacts</h2>
+    <h2 className='text-lg font-semibold mb-1 text-blue-900 dark:text-cyan-400'>Impacts</h2>
     <ul className='list-none'>
       <li className='mb-1'><FontAwesomeIcon icon={faExclamationTriangle} className='mr-2 text-sm' />Contribution to the greenhouse effect</li>
       <li className='mb-1'><FontAwesomeIcon icon={faCar} className='mr-2 text-sm' />Formation of smog and acid rain</li>
@@ -41,7 +41,7 @@ const Impacts = () => (
 
 const Solutions = () => (
   <div>
-    <h2 className='text-lg md:text-xl font-semibold mb-1 text-blue-900 dark:text-cyan-400'>Solutions</h2>
+    <h2 className='text-lg font-semibold mb-1 text-blue-900 dark:text-cyan-400'>Solutions</h2>
     <ul className='list-none'>
       <li className='mb-1'><FontAwesomeIcon icon={faWind} className='mr-2 text-sm' />Limit NO2 emissions through environmental policies</li>
       <li className='mb-1'><FontAwesomeIcon icon={faSnowflake} className='mr-2 text-sm' />Promote the use of low-emission or electric vehicles</li>
@@ -86,17 +86,28 @@ export const No2 = () => {
 
   return (
     <div className="md:h-[calc(100vh-56px-2rem)] flex flex-col items-center bg-sky-100 dark:bg-sky-900 rounded p-6 ml-2 mr-2 md:mr-4 shadow-md dark:shadow-slate-900 text-sm md:text-base">
-      <h1 className="text-4xl md:text-5xl font-bold mb-5 text-blue-900 dark:text-cyan-400">NO2</h1>
-      <ul className="prose max-w-screen-lg">
+      <h1 className="text-4xl font-bold mb-4 text-blue-900 dark:text-cyan-400">NO2</h1>
+      
+      <div className="prose max-w-screen-lg">
         <p>
-        Nitrogen dioxide is a greenhouse gas and an atmospheric pollutant that can have severe effects on human health and the environment. It is primarily produced from the combustion of fossil fuels in vehicles and power plants, as well as from industrial processes. Its presence in the atmosphere can contribute to the greenhouse effect and the formation of smog.
+          Nitrogen dioxide poses both an ecological and health risk.
         </p>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mt-5">
+
+        <p className='my-2'>
+          This atmospheric pollutant is primarily generated from vehicular traffic, but also from the use of gas in homes for heating and cooking. Other sources of NO2 emissions can be traced back to industrial processes and energy production.
+        </p>
+
+        <p>
+          In the long run, it contributes to the degradation of aquatic ecosystems and the acidification of rain. From a health perspective, prolonged exposure contributes to the onset of serious illnesses, as well as hindering the normal development of lung capacity.
+        </p>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
           <Impacts />
           <Solutions />
         </div>
-      </ul>
-      <div className="bg-white dark:bg-gray-100 rounded-md shadow-md w-full max-w-4xl mt-5 p-5">
+      </div>
+      
+      <div className="bg-white dark:bg-gray-100 rounded-md shadow-md w-full max-w-4xl mt-4 p-3">
         <LineChart chartData={no2Data} />
       </div>
     </div>
